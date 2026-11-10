@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Placeholder Upload dan Review CV CareerLens AI">
+  <rect width="1200" height="720" fill="#0B1220"/>
+  <rect x="24" y="24" width="1152" height="72" rx="12" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="56" y="69" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="22" font-weight="700">CareerLens AI</text>
+  <text x="1100" y="69" text-anchor="end" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="14">Upload &amp; Review</text>
+  <rect x="24" y="128" width="560" height="544" rx="18" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="56" y="176" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Upload CV</text>
+  <rect x="56" y="208" width="496" height="260" rx="16" fill="#0B1220" stroke="#3B82F6" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="304" y="320" text-anchor="middle" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Tarik file ke sini</text>
+  <text x="304" y="348" text-anchor="middle" fill="#64748B" font-family="system-ui, sans-serif" font-size="13">PDF atau DOCX · maks. 5 MB</text>
+  <rect x="56" y="492" width="496" height="52" rx="10" fill="#3B82F6"/>
+  <text x="304" y="524" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="600">Pilih file</text>
+  <text x="304" y="584" text-anchor="middle" fill="#64748B" font-family="system-ui, sans-serif" font-size="13">Validasi: ekstensi, MIME, magic bytes, ukuran</text>
+  <rect x="608" y="128" width="568" height="544" rx="18" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="640" y="176" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Review hasil ekstraksi</text>
+  <text x="640" y="212" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" letter-spacing="1.5">NAMA</text>
+  <rect x="640" y="224" width="504" height="42" rx="8" fill="#0B1220" stroke="#1E2A44"/>
+  <text x="658" y="251" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="14">Kandidat Contoh</text>
+  <text x="640" y="292" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" letter-spacing="1.5">EMAIL</text>
+  <rect x="640" y="304" width="504" height="42" rx="8" fill="#0B1220" stroke="#1E2A44"/>
+  <text x="658" y="331" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="14">kandidat.contoh@example.com</text>
+  <text x="640" y="372" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" letter-spacing="1.5">SKILL</text>
+  <g fill="#1E3A8A" stroke="#3B82F6">
+    <rect x="640" y="384" width="78" height="28" rx="14"/><rect x="726" y="384" width="86" height="28" rx="14"/>
+    <rect x="820" y="384" width="104" height="28" rx="14"/><rect x="932" y="384" width="80" height="28" rx="14"/>
+  </g>
+  <g fill="#BFDBFE" font-family="system-ui, sans-serif" font-size="12">
+    <text x="679" y="403" text-anchor="middle">Python</text><text x="769" y="403" text-anchor="middle">FastAPI</text>
+    <text x="872" y="403" text-anchor="middle">PostgreSQL</text><text x="972" y="403" text-anchor="middle">Docker</text>
+  </g>
+  <rect x="640" y="552" width="504" height="52" rx="10" fill="#3B82F6"/>
+  <text x="892" y="584" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="600">Simpan dan analisis</text>
+  <text x="600" y="700" text-anchor="middle" fill="#64748B" font-family="system-ui, sans-serif" font-size="15">Placeholder — ganti dengan screenshot aplikasi asli</text>
+</svg>

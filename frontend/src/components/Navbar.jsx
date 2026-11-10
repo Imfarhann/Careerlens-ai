@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-import { clearToken, getToken } from "../api/client";
+import { api, clearToken, getToken } from "../api/client";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -10,6 +10,22 @@ export default function Navbar() {
   function handleLogout() {
     clearToken();
     navigate("/");
+  }
+
+  async function handleDeleteAccount() {
+    const confirmed = window.confirm(
+      "Hapus akun beserta seluruh CV, profil, analisis, dan file Anda? " +
+        "Tindakan ini tidak bisa dibatalkan."
+    );
+    if (!confirmed) return;
+
+    try {
+      await api.deleteAccount();
+      clearToken();
+      navigate("/");
+    } catch (error) {
+      window.alert(error.message);
+    }
   }
 
   return (
@@ -45,6 +61,13 @@ export default function Navbar() {
                 className="rounded-lg border border-border px-4 py-2 text-sm font-medium text-slate-300 transition hover:border-danger/60 hover:text-white"
               >
                 Keluar
+              </button>
+              <button
+                type="button"
+                onClick={handleDeleteAccount}
+                className="rounded-lg border border-danger/40 px-3 py-2 text-xs font-medium text-red-300 transition hover:border-danger hover:bg-danger/10 hover:text-white"
+              >
+                Hapus akun
               </button>
             </>
           ) : (

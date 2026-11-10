@@ -6,6 +6,8 @@ from app.core.config import settings
 
 
 def create_app() -> FastAPI:
+    settings.validate_runtime()
+
     app = FastAPI(
         title=settings.app_name,
         version="0.1.0",
@@ -16,8 +18,8 @@ def create_app() -> FastAPI:
         CORSMiddleware,
         allow_origins=settings.cors_origins,
         allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
+        allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        allow_headers=["Authorization", "Content-Type"],
     )
 
     app.include_router(api_router, prefix=settings.api_prefix)

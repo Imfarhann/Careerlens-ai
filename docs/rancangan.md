@@ -7,9 +7,20 @@ Platform AI yang menganalisis CV, mengidentifikasi skill, menemukan skill gap, d
 ## 1. Keputusan desain
 
 - Cakupan: **MVP lengkap** (CV Analyzer + Job Matcher)
-- Data lowongan: **database buatan sendiri** (seed 30-50 lowongan)
+- Data lowongan: **database buatan sendiri** (seed 40 lowongan fiktif)
 - Gaya UI: **Modern SaaS, dark navy + blue**
 - Fase 2 (setelah MVP): CV Improver, Cover Letter Generator, Interview Simulator, Career Path Prediction
+
+## 1a. Status implementasi
+
+| Fase | Fokus | Status |
+|---|---|---|
+| 1 | Fondasi, Docker, DB, auth, UI dasar | Selesai |
+| 2 | Parser CV, skill extraction, halaman review | Selesai |
+| 3 | Scoring rubrik + saran LLM | Selesai |
+| 4 | Seed 40 lowongan + job matcher | Selesai |
+| 5 | Dashboard gabungan, riwayat/compare, skill gap & roadmap | Selesai |
+| 6 | Testing, hardening, dokumentasi, demo | Berjalan |
 
 ## 2. Ruang lingkup MVP
 
@@ -29,7 +40,7 @@ React (Vite + Tailwind + Recharts)
 FastAPI -- Auth -- Upload Validator
    |
    +- Parser Service   (pdfplumber / python-docx -> teks)
-   +- NLP Service      (spaCy + skill taxonomy -> data terstruktur)
+   +- NLP Service      (aturan regex + taksonomi alias -> data terstruktur)
    +- Scoring Service  (rubrik berbasis aturan)
    +- Matching Service (Sentence Transformers + skill overlap)
    +- LLM Service      (hanya untuk teks saran, bukan angka)
@@ -47,7 +58,7 @@ PostgreSQL (+ pgvector untuk embedding, opsional)
 | Styling | Tailwind CSS |
 | Visualisasi | Recharts |
 | Backend | Python + FastAPI |
-| NLP | spaCy |
+| NLP | Aturan regex + taksonomi alias (`services/nlp.py`) |
 | Matching | Sentence Transformers (`all-MiniLM-L6-v2`) |
 | LLM | LLM API (hanya untuk saran teks) |
 | Database | PostgreSQL |
@@ -99,10 +110,16 @@ match_score = 0.6 * skill_coverage + 0.4 * semantic_similarity
 ```
 POST   /auth/register
 POST   /auth/login
+GET    /auth/me
+DELETE /auth/me                   -> hapus akun + seluruh data & file
 POST   /cv/upload                 -> validasi, parse, return profile
 PUT    /profile/{id}              -> koreksi hasil ekstraksi
+GET    /profile/{id}
 POST   /analysis/{cv_id}          -> hitung skor + saran
+GET    /analysis                  -> riwayat analisis (terbaru dulu)
 GET    /analysis/{id}
+GET    /analysis/{id}/compare/{other_id}
+GET    /dashboard/{analysis_id}   -> ringkasan gabungan + grafik
 GET    /jobs/match/{analysis_id}  -> daftar lowongan + persen
 GET    /skills/gap/{analysis_id}
 DELETE /cv/{id}                   -> hapus CV (privasi)
@@ -113,22 +130,28 @@ GET    /health
 
 ```
 careerlens/
++- .github/workflows/   (CI: pytest + npm run build)
 +- AGENTS.md
-+- docs/rancangan.md
++- README.md
++- LICENSE
++- demo/                (CV contoh fiktif DOCX/PDF)
++- docs/                (rancangan.md, rencana-kerja.md, security-audit.md, screenshots/)
 +- backend/
+|  +- alembic/          (migrasi database)
 |  +- app/
 |  |  +- main.py
-|  |  +- api/          (routers)
-|  |  +- core/         (config, security)
-|  |  +- models/       (SQLAlchemy)
-|  |  +- schemas/      (Pydantic)
-|  |  +- services/     (parser, nlp, scoring, matching, llm)
-|  |  +- data/         (skills.json, jobs_seed.json)
-|  +- tests/
+|  |  +- api/           (routers: auth, cv, profile, analysis, jobs, skills, dashboard)
+|  |  +- core/          (config, security, rate_limit)
+|  |  +- models/        (SQLAlchemy)
+|  |  +- schemas/       (Pydantic)
+|  |  +- services/      (parser, nlp, scoring, matching, llm, profile_store)
+|  |  +- data/          (skills.json, jobs_seed.json, learning_resources.json)
+|  +- tests/            (pytest + fixtures)
 |  +- requirements.txt
 +- frontend/
 |  +- src/ (pages, components, hooks, api)
 +- docker-compose.yml
++- .env.example
 ```
 
 ## 10. Halaman frontend
@@ -146,25 +169,29 @@ Palet: navy `#0B1220`, surface `#111A2E`, aksen biru `#3B82F6`, hijau untuk skor
 
 - Autentikasi JWT; CV hanya bisa diakses pemiliknya.
 - Validasi tipe dan ukuran file (maks. 5 MB), cek MIME, bukan sekadar ekstensi.
+- Rate limit `/auth/login` dan `/auth/register` per IP (default 10/menit).
+- `DELETE /auth/me` menghapus akun, CV, profil, skill, analisis, job match, dan file fisik.
 - Tombol hapus CV dan seluruh datanya.
 - Jangan kirim data pribadi (nama, email, telepon) ke LLM; anonimkan dulu.
+- Jangan log PII; pesan error autentikasi dibuat generik.
+- Di production, aplikasi menolak start jika `JWT_SECRET` masih nilai contoh/<32 karakter atau `CORS_ORIGINS` berisi `*`.
 - Simpan rahasia (API key, JWT secret) di `.env`, jangan di-commit.
 
 ## 12. Jadwal (±6 minggu)
 
-| Minggu | Target |
-|---|---|
-| 1 | Setup repo, Docker, DB, auth, desain UI |
-| 2 | Parser PDF/DOCX + skill extraction + halaman review |
-| 3 | Scoring rubrik + saran LLM |
-| 4 | Seed 30-50 lowongan + Job Matcher |
-| 5 | Dashboard, grafik, skill gap |
-| 6 | Testing, perbaikan, deploy, README dan demo |
+| Minggu | Target | Status |
+|---|---|---|
+| 1 | Setup repo, Docker, DB, auth, desain UI | Selesai |
+| 2 | Parser PDF/DOCX + skill extraction + halaman review | Selesai |
+| 3 | Scoring rubrik + saran LLM | Selesai |
+| 4 | Seed 30-50 lowongan + Job Matcher | Selesai |
+| 5 | Dashboard, grafik, skill gap | Selesai |
+| 6 | Testing, perbaikan, deploy, README dan demo | Berjalan |
 
 ## 13. Kriteria selesai (definition of done)
 
-- Semua endpoint di bagian 8 berfungsi dan punya test.
-- Skor CV dapat dijelaskan per kriteria sesuai rubrik.
-- Job matcher mengembalikan persen, skill cocok, dan skill kurang.
-- Aplikasi bisa dijalankan dengan `docker-compose up`.
-- README berisi screenshot, penjelasan rubrik, dan CV contoh untuk demo.
+- [x] Semua endpoint di bagian 8 berfungsi dan punya test.
+- [x] Skor CV dapat dijelaskan per kriteria sesuai rubrik.
+- [x] Job matcher mengembalikan persen, skill cocok, dan skill kurang.
+- [x] Aplikasi bisa dijalankan dengan `docker-compose up`.
+- [ ] README berisi screenshot, penjelasan rubrik, dan CV contoh untuk demo.

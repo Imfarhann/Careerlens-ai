@@ -69,6 +69,7 @@ export const api = {
   login: (payload) =>
     request("/auth/login", { method: "POST", body: payload, auth: false }),
   me: () => request("/auth/me"),
+  deleteAccount: () => request("/auth/me", { method: "DELETE" }),
   getProfile: (profileId) => request(`/profile/${profileId}`),
   updateProfile: (profileId, payload) =>
     request(`/profile/${profileId}`, { method: "PUT", body: payload }),

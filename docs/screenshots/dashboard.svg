@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Placeholder Dashboard CareerLens AI">
+  <rect width="1200" height="720" fill="#0B1220"/>
+  <rect x="24" y="24" width="1152" height="72" rx="12" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="56" y="69" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="22" font-weight="700">CareerLens AI</text>
+  <text x="1100" y="69" text-anchor="end" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="14">Dashboard</text>
+  <rect x="24" y="120" width="360" height="260" rx="16" fill="#111A2E" stroke="#1E2A44"/>
+  <circle cx="204" cy="250" r="84" fill="none" stroke="#1E2A44" stroke-width="16"/>
+  <circle cx="204" cy="250" r="84" fill="none" stroke="#3B82F6" stroke-width="16" stroke-linecap="round" stroke-dasharray="528" stroke-dashoffset="150" transform="rotate(-90 204 250)"/>
+  <text x="204" y="258" text-anchor="middle" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="42" font-weight="700">72</text>
+  <text x="204" y="282" text-anchor="middle" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">dari 100</text>
+  <text x="52" y="152" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" letter-spacing="1.5">SKOR TOTAL (PLACEHOLDER)</text>
+  <rect x="408" y="120" width="768" height="260" rx="16" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="436" y="158" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Breakdown 5 kriteria</text>
+  <g fill="#3B82F6">
+    <rect x="520" y="190" width="520" height="18" rx="9"/>
+    <rect x="520" y="232" width="420" height="18" rx="9"/>
+    <rect x="520" y="274" width="360" height="18" rx="9"/>
+    <rect x="520" y="316" width="280" height="18" rx="9"/>
+    <rect x="520" y="358" width="200" height="18" rx="9"/>
+  </g>
+  <g fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="13">
+    <text x="452" y="204">Kelengkapan</text>
+    <text x="452" y="246">Deskripsi</text>
+    <text x="452" y="288">ATS</text>
+    <text x="452" y="330">Skill</text>
+    <text x="452" y="372">Format</text>
+  </g>
+  <rect x="24" y="404" width="564" height="292" rx="16" fill="#111A2E" stroke="#1E2A44"/>
+  <rect x="612" y="404" width="564" height="292" rx="16" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="52" y="442" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Coverage per kategori (radar)</text>
+  <text x="640" y="442" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Top 5 lowongan &amp; skill gap</text>
+  <text x="600" y="620" text-anchor="middle" fill="#64748B" font-family="system-ui, sans-serif" font-size="15">Placeholder — ganti dengan screenshot aplikasi asli</text>
+</svg>

@@ -7,6 +7,7 @@ from sqlalchemy.pool import StaticPool
 
 import app.models  # noqa: F401
 from app.core.config import settings
+from app.core.rate_limit import limiter
 from app.db.base import Base
 from app.db.session import get_db
 from app.main import app
@@ -26,9 +27,12 @@ def database(tmp_path, monkeypatch):
     monkeypatch.setattr(settings, "upload_dir", str(tmp_path / "uploads"))
     monkeypatch.setattr(settings, "llm_api_key", "")
     monkeypatch.setattr(settings, "bcrypt_rounds", 4)
+    monkeypatch.setattr(settings, "rate_limit_per_minute", 1000)
+    limiter.reset()
     Base.metadata.create_all(bind=engine)
     yield
     Base.metadata.drop_all(bind=engine)
+    limiter.reset()
 
 
 @pytest.fixture

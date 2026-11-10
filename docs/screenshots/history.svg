@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Placeholder Riwayat Analisis CareerLens AI">
+  <rect width="1200" height="720" fill="#0B1220"/>
+  <rect x="24" y="24" width="1152" height="72" rx="12" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="56" y="69" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="22" font-weight="700">CareerLens AI</text>
+  <text x="1100" y="69" text-anchor="end" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="14">Riwayat</text>
+  <text x="52" y="148" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="28" font-weight="700">Perkembangan skor CV</text>
+  <rect x="24" y="180" width="760" height="300" rx="16" fill="#111A2E" stroke="#1E2A44"/>
+  <polyline points="80,420 220,380 360,395 500,320 640,300 720,260" fill="none" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#60A5FA">
+    <circle cx="80" cy="420" r="7"/><circle cx="220" cy="380" r="7"/><circle cx="360" cy="395" r="7"/>
+    <circle cx="500" cy="320" r="7"/><circle cx="640" cy="300" r="7"/><circle cx="720" cy="260" r="7"/>
+  </g>
+  <g stroke="#1E2A44" stroke-width="1">
+    <line x1="80" y1="240" x2="720" y2="240"/><line x1="80" y1="300" x2="720" y2="300"/>
+    <line x1="80" y1="360" x2="720" y2="360"/><line x1="80" y1="420" x2="720" y2="420"/>
+  </g>
+  <rect x="808" y="180" width="368" height="300" rx="16" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="836" y="220" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Bandingkan analisis</text>
+  <rect x="836" y="244" width="312" height="44" rx="8" fill="#0B1220" stroke="#1E2A44"/>
+  <rect x="836" y="304" width="312" height="44" rx="8" fill="#0B1220" stroke="#1E2A44"/>
+  <rect x="836" y="368" width="312" height="44" rx="8" fill="#3B82F6"/>
+  <text x="992" y="396" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Bandingkan</text>
+  <rect x="24" y="504" width="1152" height="192" rx="16" fill="#111A2E" stroke="#1E2A44"/>
+  <text x="52" y="542" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Daftar analisis</text>
+  <text x="600" y="620" text-anchor="middle" fill="#64748B" font-family="system-ui, sans-serif" font-size="15">Placeholder — ganti dengan screenshot aplikasi asli</text>
+</svg>
