@@ -1,0 +1,744 @@
+[
+  {
+    "slug": "frontend-intern-nusantara",
+    "title": "Frontend Developer Intern",
+    "company": "Nusantara Digital",
+    "level": "Intern",
+    "description": "Nusantara Digital membuka program magang frontend untuk mahasiswa tingkat akhir. Anda akan membantu membangun antarmuka halaman kampanye menggunakan HTML, CSS, dan JavaScript. Mentor akan membimbing Anda dalam code review dan penggunaan Git setiap hari. Kandidat yang menunjukkan performa baik berpeluang direkrut sebagai junior engineer.",
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "React",
+      "Figma"
+    ]
+  },
+  {
+    "slug": "frontend-junior-cakra",
+    "title": "Junior Frontend Engineer",
+    "company": "Cakra Labs",
+    "level": "Junior",
+    "description": "Cakra Labs mencari junior frontend engineer untuk mengembangkan dashboard analitik berbasis React. Anda akan menerjemahkan desain Figma menjadi komponen responsif dan menghubungkannya ke REST API. Tim bekerja dengan Git, code review, dan sprint dua minggu. Kami menghargai rasa ingin tahu dan kemauan belajar TypeScript.",
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "TypeScript",
+      "Tailwind CSS",
+      "REST API"
+    ]
+  },
+  {
+    "slug": "frontend-react-sagara",
+    "title": "Frontend Engineer (React)",
+    "company": "Sagara Tech",
+    "level": "Mid",
+    "description": "Sagara Tech mengembangkan produk SaaS untuk logistik dan membutuhkan frontend engineer yang kuat di React dan TypeScript. Anda akan merancang arsitektur komponen, mengelola state dengan Redux, dan menulis test dengan Jest. Posisi ini bekerja dekat dengan tim desain dan backend untuk menjaga kualitas pengalaman pengguna.",
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "REST API",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "Next.js",
+      "Redux",
+      "Jest"
+    ]
+  },
+  {
+    "slug": "frontend-vue-langit",
+    "title": "Frontend Engineer (Vue)",
+    "company": "Langit Kreatif",
+    "level": "Junior",
+    "description": "Langit Kreatif membangun situs interaktif untuk brand retail dan mencari frontend engineer yang menguasai Vue.js. Anda akan mengembangkan komponen reusable, memastikan tampilan responsif, dan mengoptimalkan performa halaman. Lingkungan kerja mendukung eksperimen dengan Vite dan Tailwind CSS.",
+    "required_skills": [
+      "Vue.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "slug": "backend-intern-arka",
+    "title": "Backend Developer Intern",
+    "company": "Arka Systems",
+    "level": "Intern",
+    "description": "Arka Systems membuka magang backend untuk mahasiswa yang tertarik pada pengembangan API. Anda akan menulis endpoint sederhana dengan Python, menyusun query SQL, dan mendokumentasikan pekerjaan di Git. Setiap tugas didampingi engineer senior dan diuji melalui code review. Program berlangsung enam bulan dengan peluang konversi.",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "REST API"
+    ],
+    "nice_to_have_skills": [
+      "FastAPI",
+      "Docker"
+    ]
+  },
+  {
+    "slug": "backend-junior-rimba",
+    "title": "Junior Backend Engineer",
+    "company": "Rimba Cloud",
+    "level": "Junior",
+    "description": "Rimba Cloud mencari junior backend engineer untuk mengembangkan layanan berbasis Python dan FastAPI. Anda akan membangun API, mengelola data di PostgreSQL, dan menulis test dengan pytest. Tim menerapkan containerisasi dengan Docker dan memantau performa layanan secara berkala. Posisi ini cocok untuk lulusan baru yang aktif belajar.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "REST API",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Redis",
+      "pytest"
+    ]
+  },
+  {
+    "slug": "backend-node-sinar",
+    "title": "Backend Engineer (Node.js)",
+    "company": "Sinar API",
+    "level": "Junior",
+    "description": "Sinar API mengembangkan platform integrasi pembayaran dan membutuhkan backend engineer Node.js. Anda akan membangun layanan Express.js, mengelola data MongoDB, dan menjaga kontrak REST API tetap stabil. Tim menggunakan Git dan melakukan deployment rutin dengan Docker. Kesempatan belajar TypeScript dan Redis tersedia bagi kandidat yang termotivasi.",
+    "required_skills": [
+      "Node.js",
+      "JavaScript",
+      "Express.js",
+      "MongoDB",
+      "REST API"
+    ],
+    "nice_to_have_skills": [
+      "TypeScript",
+      "Redis",
+      "Docker"
+    ]
+  },
+  {
+    "slug": "backend-java-pilar",
+    "title": "Backend Engineer (Java)",
+    "company": "Pilar Fintech",
+    "level": "Mid",
+    "description": "Pilar Fintech membutuhkan backend engineer Java untuk layanan transaksi bervolume tinggi. Anda akan mengembangkan service Spring Boot, merancang skema PostgreSQL, dan berkolaborasi dalam arsitektur microservices. Streaming data antar layanan menggunakan Apache Kafka. Pengalaman dengan Docker dan Git menjadi bagian dari alur kerja harian.",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "REST API",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Apache Kafka",
+      "Microservices"
+    ]
+  },
+  {
+    "slug": "fullstack-intern-mahardika",
+    "title": "Full-Stack Developer Intern",
+    "company": "Mahardika Studio",
+    "level": "Intern",
+    "description": "Mahardika Studio membuka magang full-stack untuk membantu pengembangan produk internal. Anda akan membuat halaman dengan HTML dan CSS, menambahkan interaksi JavaScript, serta menghubungkannya ke API Node.js. Pekerjaan dikelola dengan Git dan direview setiap minggu. Kami mencari kandidat yang teliti dan senang bereksperimen.",
+    "required_skills": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "React",
+      "MongoDB"
+    ]
+  },
+  {
+    "slug": "fullstack-junior-kiara",
+    "title": "Junior Full-Stack Engineer",
+    "company": "Kiara Commerce",
+    "level": "Junior",
+    "description": "Kiara Commerce mencari junior full-stack engineer untuk mengembangkan fitur toko online. Anda akan mengerjakan frontend React, backend Node.js, dan basis data PostgreSQL. Fitur yang Anda bangun akan dipakai langsung oleh merchant di seluruh Indonesia. Tim memakai Git, Docker, dan praktik code review yang rutin.",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "REST API"
+    ],
+    "nice_to_have_skills": [
+      "TypeScript",
+      "Docker",
+      "Git"
+    ]
+  },
+  {
+    "slug": "fullstack-ts-biru",
+    "title": "Full-Stack Engineer (TypeScript)",
+    "company": "Biru Digital",
+    "level": "Mid",
+    "description": "Biru Digital membangun platform kolaborasi tim dan membutuhkan full-stack engineer TypeScript. Anda akan mengembangkan frontend React, layanan Express.js, dan integrasi PostgreSQL serta AWS. Fokus peran ini adalah menjaga konsistensi tipe dari database hingga antarmuka. Kolaborasi lintas tim dilakukan secara async dengan dokumentasi yang rapi.",
+    "required_skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL"
+    ],
+    "nice_to_have_skills": [
+      "Next.js",
+      "Docker",
+      "AWS"
+    ]
+  },
+  {
+    "slug": "fullstack-laravel-samudra",
+    "title": "Full-Stack Engineer (Laravel)",
+    "company": "Samudra Retail",
+    "level": "Junior",
+    "description": "Samudra Retail mengelola sistem inventori multi-cabang dan membutuhkan full-stack engineer Laravel. Anda akan membangun modul backend PHP, antarmuka HTML, dan interaksi JavaScript untuk operator gudang. Basis data utama menggunakan MySQL dengan deployment berbasis Docker. Kesempatan mempelajari Vue.js dan Tailwind CSS tersedia.",
+    "required_skills": [
+      "PHP",
+      "Laravel",
+      "JavaScript",
+      "MySQL",
+      "HTML"
+    ],
+    "nice_to_have_skills": [
+      "Vue.js",
+      "Docker",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "slug": "data-analyst-intern-datawise",
+    "title": "Data Analyst Intern",
+    "company": "Datawise Nusantara",
+    "level": "Intern",
+    "description": "Datawise Nusantara membuka magang data analyst untuk mahasiswa yang ingin belajar dari data bisnis nyata. Anda akan menyusun query SQL, merapikan data di Microsoft Excel, dan membuat ringkasan temuan sederhana. Hasil analisis dipresentasikan kepada mentor setiap dua minggu. Kandidat yang menguasai Python atau Power BI memiliki nilai tambah.",
+    "required_skills": [
+      "SQL",
+      "Microsoft Excel",
+      "Data Analysis"
+    ],
+    "nice_to_have_skills": [
+      "Python",
+      "Power BI",
+      "Communication"
+    ]
+  },
+  {
+    "slug": "data-analyst-junior-metrika",
+    "title": "Junior Data Analyst",
+    "company": "Metrika Insight",
+    "level": "Junior",
+    "description": "Metrika Insight membantu klien retail memahami perilaku pelanggan. Anda akan mengolah data dengan SQL dan Python, membuat visualisasi, serta menyusun laporan berkala. Dashboard utama dibangun dengan Power BI dan Tableau. Kami mencari kandidat dengan dasar statistik yang kuat dan komunikasi yang jelas.",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "Microsoft Excel",
+      "Data Visualization",
+      "Data Analysis"
+    ],
+    "nice_to_have_skills": [
+      "Power BI",
+      "Tableau",
+      "Statistics"
+    ]
+  },
+  {
+    "slug": "data-analyst-growth-kilat",
+    "title": "Data Analyst (Growth)",
+    "company": "Kilat Growth",
+    "level": "Junior",
+    "description": "Kilat Growth mencari data analyst untuk tim pertumbuhan produk digital. Anda akan merancang dan mengevaluasi A/B testing, menulis query SQL, serta menyajikan insight melalui visualisasi data. Data utama tersimpan di BigQuery dan diolah dengan Python. Kemampuan komunikasi dibutuhkan untuk menjelaskan hasil eksperimen ke tim produk.",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "A/B Testing",
+      "Data Visualization",
+      "Statistics"
+    ],
+    "nice_to_have_skills": [
+      "Tableau",
+      "BigQuery",
+      "Communication"
+    ]
+  },
+  {
+    "slug": "data-analyst-product-orbit",
+    "title": "Product Data Analyst",
+    "company": "Orbit Apps",
+    "level": "Mid",
+    "description": "Orbit Apps mengembangkan aplikasi produktivitas dan membutuhkan product data analyst. Anda akan menganalisis funnel penggunaan, mengevaluasi eksperimen A/B, dan membangun metrik produk yang dapat ditindaklanjuti. Pekerjaan menuntut SQL dan Python yang lancar serta komunikasi yang efektif dengan product manager. Familiaritas dengan BigQuery dan Power BI menjadi keunggulan.",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "A/B Testing",
+      "Data Analysis",
+      "Communication"
+    ],
+    "nice_to_have_skills": [
+      "BigQuery",
+      "Power BI",
+      "Analytical Thinking"
+    ]
+  },
+  {
+    "slug": "data-scientist-junior-aether",
+    "title": "Junior Data Scientist",
+    "company": "Aether Analytics",
+    "level": "Junior",
+    "description": "Aether Analytics membangun model prediksi untuk industri logistik. Anda akan melakukan eksplorasi data dengan Pandas dan NumPy, melatih model scikit-learn, serta mengevaluasi performanya dengan metrik statistik. Hasil kerja disajikan kepada tim bisnis dalam bahasa yang mudah dipahami. SQL digunakan setiap hari untuk mengambil data dari gudang data.",
+    "required_skills": [
+      "Python",
+      "Pandas",
+      "scikit-learn",
+      "Statistics",
+      "SQL"
+    ],
+    "nice_to_have_skills": [
+      "NumPy",
+      "Data Visualization",
+      "Machine Learning"
+    ]
+  },
+  {
+    "slug": "data-scientist-nlp-bahasa",
+    "title": "Data Scientist (NLP)",
+    "company": "Bahasa AI",
+    "level": "Mid",
+    "description": "Bahasa AI mengembangkan layanan pemrosesan bahasa Indonesia dan mencari data scientist NLP. Anda akan membangun pipeline teks, melakukan fine-tuning model Hugging Face, dan mengevaluasi kualitas model bersama tim produk. PyTorch menjadi kerangka utama, dengan dukungan spaCy untuk preprocessing. Pengalaman dengan LLM dan Docker menjadi nilai tambah.",
+    "required_skills": [
+      "Python",
+      "Natural Language Processing",
+      "PyTorch",
+      "Hugging Face",
+      "Machine Learning"
+    ],
+    "nice_to_have_skills": [
+      "spaCy",
+      "LLM",
+      "Docker"
+    ]
+  },
+  {
+    "slug": "data-scientist-cv-visio",
+    "title": "Data Scientist (Computer Vision)",
+    "company": "Visio Robotics",
+    "level": "Mid",
+    "description": "Visio Robotics membangun sistem inspeksi visual untuk pabrik dan membutuhkan data scientist computer vision. Anda akan mengolah citra dengan OpenCV, melatih model deep learning menggunakan PyTorch, dan mengukur akurasi pada data produksi. Kolaborasi dengan tim robotika dilakukan secara erat. Pengalaman TensorFlow dan NumPy turut dihargai.",
+    "required_skills": [
+      "Python",
+      "Computer Vision",
+      "OpenCV",
+      "PyTorch",
+      "Deep Learning"
+    ],
+    "nice_to_have_skills": [
+      "TensorFlow",
+      "NumPy",
+      "Docker"
+    ]
+  },
+  {
+    "slug": "data-scientist-experiment",
+    "title": "Data Scientist (Experimentation)",
+    "company": "Eksperimen Labs",
+    "level": "Mid",
+    "description": "Eksperimen Labs membantu perusahaan mengukur dampak perubahan produk melalui eksperimen terkontrol. Anda akan merancang uji A/B, menganalisis hasil dengan Python dan Pandas, serta memastikan validitas statistik. Data eksperimen disimpan di BigQuery dan divisualisasikan untuk pemangku kepentingan. Peran ini menuntut ketelitian dan kemampuan menjelaskan ketidakpastian.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "A/B Testing",
+      "Pandas",
+      "SQL"
+    ],
+    "nice_to_have_skills": [
+      "scikit-learn",
+      "Data Visualization",
+      "BigQuery"
+    ]
+  },
+  {
+    "slug": "ml-engineer-junior-neura",
+    "title": "Junior ML Engineer",
+    "company": "Neura Works",
+    "level": "Junior",
+    "description": "Neura Works mencari junior ML engineer untuk membantu membawa model ke produksi. Anda akan menyiapkan data dengan Pandas, melatih model scikit-learn, dan membungkusnya sebagai layanan FastAPI. Eksperimen dilacak dengan Git dan dijalankan dalam container Docker. Kami menyediakan mentoring intensif untuk kandidat dengan dasar machine learning yang kuat.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "scikit-learn",
+      "Pandas",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "FastAPI",
+      "NumPy"
+    ]
+  },
+  {
+    "slug": "ml-engineer-nlp-teks",
+    "title": "ML Engineer (NLP)",
+    "company": "Teks Cerdas",
+    "level": "Mid",
+    "description": "Teks Cerdas membangun layanan ekstraksi informasi dari dokumen berbahasa Indonesia. Anda akan mengembangkan pipeline NLP, melakukan fine-tuning model Hugging Face dengan PyTorch, dan menyajikan model melalui FastAPI. Deployment dijalankan pada klaster Kubernetes dengan pemantauan performa. Pengalaman LLM dan Docker menjadi keunggulan.",
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "Hugging Face",
+      "Natural Language Processing",
+      "Docker"
+    ],
+    "nice_to_have_skills": [
+      "LLM",
+      "Kubernetes",
+      "FastAPI"
+    ]
+  },
+  {
+    "slug": "mlops-engineer-orbit",
+    "title": "MLOps Engineer",
+    "company": "Orbit MLOps",
+    "level": "Mid",
+    "description": "Orbit MLOps membantu tim data science men-deploy model secara aman dan konsisten. Anda akan membangun pipeline CI/CD, mengelola container Docker, dan mengoperasikan beban kerja di Kubernetes serta AWS. Observabilitas layanan dijaga dengan Prometheus dan infrastruktur didefinisikan melalui Terraform. Pemahaman machine learning dibutuhkan agar kolaborasi dengan tim model berjalan efektif.",
+    "required_skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS"
+    ],
+    "nice_to_have_skills": [
+      "Terraform",
+      "Machine Learning",
+      "Prometheus"
+    ]
+  },
+  {
+    "slug": "ml-engineer-llm-kata",
+    "title": "ML Engineer (LLM)",
+    "company": "Kata Generative",
+    "level": "Mid",
+    "description": "Kata Generative membangun asisten penulisan berbasis model bahasa besar. Anda akan merancang pipeline LangChain, melakukan evaluasi kualitas keluaran, dan mengoptimalkan prompt bersama tim produk. Model dijalankan dengan PyTorch dan disajikan melalui FastAPI. Pengalaman dengan Hugging Face dan Docker sangat membantu proses deployment.",
+    "required_skills": [
+      "Python",
+      "LLM",
+      "LangChain",
+      "PyTorch",
+      "Prompt Engineering"
+    ],
+    "nice_to_have_skills": [
+      "Hugging Face",
+      "FastAPI",
+      "Docker"
+    ]
+  },
+  {
+    "slug": "devops-intern-grid",
+    "title": "DevOps Intern",
+    "company": "Grid Hosting",
+    "level": "Intern",
+    "description": "Grid Hosting membuka magang DevOps untuk mahasiswa yang ingin memahami operasional layanan cloud. Anda akan membantu administrasi Linux, menulis skrip shell sederhana, dan menyiapkan container Docker. Pekerjaan dicatat dan direview melalui Git setiap hari. Kandidat yang mengenal AWS atau CI/CD akan mendapat tanggung jawab tambahan.",
+    "required_skills": [
+      "Linux",
+      "Git",
+      "Docker",
+      "Shell Scripting"
+    ],
+    "nice_to_have_skills": [
+      "AWS",
+      "CI/CD",
+      "Python"
+    ]
+  },
+  {
+    "slug": "devops-junior-awan",
+    "title": "Junior DevOps Engineer",
+    "company": "Awan Infra",
+    "level": "Junior",
+    "description": "Awan Infra mengelola infrastruktur untuk beberapa produk SaaS dan mencari junior DevOps engineer. Anda akan memelihara server Linux, membangun pipeline GitHub Actions, dan mengelola container Docker di AWS. Konfigurasi Kubernetes dan Terraform akan menjadi bagian dari pengembangan berikutnya. Kami menghargai dokumentasi yang rapi dan kebiasaan otomasi.",
+    "required_skills": [
+      "Linux",
+      "Docker",
+      "CI/CD",
+      "GitHub Actions",
+      "AWS"
+    ],
+    "nice_to_have_skills": [
+      "Kubernetes",
+      "Terraform",
+      "Nginx"
+    ]
+  },
+  {
+    "slug": "devops-platform-stellar",
+    "title": "Platform Engineer",
+    "company": "Stellar Cloud",
+    "level": "Mid",
+    "description": "Stellar Cloud membangun platform internal untuk mempercepat pengiriman aplikasi tim produk. Anda akan mengelola klaster Kubernetes, menulis modul Terraform, dan mengoperasikan layanan di AWS. Helm digunakan untuk mengemas deployment dan Prometheus untuk observabilitas. Kemampuan menulis tooling dalam Go menjadi nilai tambah.",
+    "required_skills": [
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "AWS",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Helm",
+      "Prometheus",
+      "Go"
+    ]
+  },
+  {
+    "slug": "devops-sre-prima",
+    "title": "Site Reliability Engineer",
+    "company": "Prima Service",
+    "level": "Mid",
+    "description": "Prima Service mencari SRE untuk menjaga ketersediaan layanan pelanggan. Anda akan mengelola klaster Linux dan Kubernetes, membangun pipeline CI/CD, serta memantau sistem dengan Prometheus dan Grafana. Insiden dianalisis bersama tim engineering untuk menemukan akar masalah. Otomasi dengan Python atau Go sangat dihargai.",
+    "required_skills": [
+      "Linux",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "CI/CD"
+    ],
+    "nice_to_have_skills": [
+      "Go",
+      "Python",
+      "Terraform"
+    ]
+  },
+  {
+    "slug": "qa-intern-kualitas",
+    "title": "QA Intern",
+    "company": "Kualitas Digital",
+    "level": "Intern",
+    "description": "Kualitas Digital membuka magang QA untuk mahasiswa yang teliti dan suka menguji produk. Anda akan menjalankan manual testing, mencatat bug di Jira, dan memverifikasi perbaikan bersama developer. Komunikasi yang jelas dibutuhkan saat menulis langkah reproduksi. Pengalaman Postman, SQL, atau Agile menjadi nilai tambah.",
+    "required_skills": [
+      "Manual Testing",
+      "Communication",
+      "Attention to Detail",
+      "Jira"
+    ],
+    "nice_to_have_skills": [
+      "Postman",
+      "SQL",
+      "Agile"
+    ]
+  },
+  {
+    "slug": "qa-junior-selaras",
+    "title": "Junior QA Engineer",
+    "company": "Selaras Apps",
+    "level": "Junior",
+    "description": "Selaras Apps mengembangkan aplikasi internal dan mencari junior QA engineer. Anda akan menyusun test case manual, menguji REST API dengan Postman, dan menulis query SQL untuk verifikasi data. Bug dilacak di Jira dan didiskusikan dalam ritual Agile. Kesempatan belajar otomasi dengan Selenium dan Cypress tersedia.",
+    "required_skills": [
+      "Manual Testing",
+      "Postman",
+      "REST API",
+      "Jira",
+      "SQL"
+    ],
+    "nice_to_have_skills": [
+      "Selenium",
+      "Cypress",
+      "Agile"
+    ]
+  },
+  {
+    "slug": "qa-automation-nova",
+    "title": "QA Automation Engineer",
+    "company": "Nova Test",
+    "level": "Mid",
+    "description": "Nova Test membantu klien membangun otomasi pengujian end-to-end. Anda akan menulis skrip Selenium dan Cypress dengan JavaScript, memvalidasi REST API, serta merawat suite test di Git. Pipeline CI/CD menjalankan pengujian otomatis pada setiap perubahan. Pengalaman Playwright dan Docker menjadi keunggulan.",
+    "required_skills": [
+      "Selenium",
+      "Cypress",
+      "JavaScript",
+      "REST API",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "Playwright",
+      "CI/CD",
+      "Docker"
+    ]
+  },
+  {
+    "slug": "qa-automation-playwright",
+    "title": "QA Automation Engineer (Playwright)",
+    "company": "Play Test",
+    "level": "Mid",
+    "description": "Play Test membangun kerangka pengujian modern dengan Playwright dan TypeScript. Anda akan merancang test end-to-end, memvalidasi API, dan menulis unit test dengan Jest. Pengujian dijalankan otomatis melalui CI/CD dan GitHub Actions. Familiaritas dengan Cypress dan Docker membantu mempercepat adaptasi.",
+    "required_skills": [
+      "Playwright",
+      "TypeScript",
+      "Jest",
+      "REST API",
+      "CI/CD"
+    ],
+    "nice_to_have_skills": [
+      "Cypress",
+      "Docker",
+      "GitHub Actions"
+    ]
+  },
+  {
+    "slug": "mobile-intern-kompas",
+    "title": "Mobile Developer Intern",
+    "company": "Kompas Mobile",
+    "level": "Intern",
+    "description": "Kompas Mobile membuka magang mobile developer untuk mahasiswa yang ingin belajar Flutter. Anda akan membangun halaman aplikasi dengan Dart, menghubungkan data dari REST API, dan mengelola kode di Git. Desain disediakan tim Figma dan integrasi dasar menggunakan Firebase. Mentor akan mendampingi setiap sprint.",
+    "required_skills": [
+      "Dart",
+      "Flutter",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "REST API",
+      "Figma",
+      "Firebase"
+    ]
+  },
+  {
+    "slug": "mobile-junior-flutter",
+    "title": "Junior Mobile Engineer (Flutter)",
+    "company": "Flutter Nusantara",
+    "level": "Junior",
+    "description": "Flutter Nusantara mengembangkan aplikasi layanan publik dan mencari junior mobile engineer. Anda akan membangun fitur dengan Dart dan Flutter, mengonsumsi REST API, serta berkolaborasi dengan desainer melalui Figma. Kode dikelola di Git dan dirilis secara berkala. Pengalaman Firebase dan Agile menjadi nilai tambah.",
+    "required_skills": [
+      "Dart",
+      "Flutter",
+      "REST API",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "Firebase",
+      "Figma",
+      "Agile"
+    ]
+  },
+  {
+    "slug": "mobile-android-kotlin",
+    "title": "Android Engineer",
+    "company": "Android Kita",
+    "level": "Mid",
+    "description": "Android Kita membangun aplikasi marketplace dan membutuhkan Android engineer berpengalaman Kotlin. Anda akan mengembangkan fitur native, berintegrasi dengan REST API, dan memanfaatkan Firebase untuk notifikasi serta analitik. Kode Java lama masih dipelihara secara bertahap. Pemecahan masalah yang sistematis dan kerja sama tim sangat penting.",
+    "required_skills": [
+      "Kotlin",
+      "Java",
+      "REST API",
+      "Git",
+      "Firebase"
+    ],
+    "nice_to_have_skills": [
+      "SQL",
+      "Agile",
+      "Problem Solving"
+    ]
+  },
+  {
+    "slug": "mobile-react-native",
+    "title": "React Native Engineer",
+    "company": "Reaktif Mobile",
+    "level": "Junior",
+    "description": "Reaktif Mobile mencari React Native engineer untuk mengembangkan aplikasi lintas platform. Anda akan menulis komponen dengan JavaScript dan TypeScript, menghubungkan REST API, serta mengelola state menggunakan Redux. Aplikasi diuji pada perangkat nyata dan dirilis melalui pipeline internal. Pengalaman Firebase dan Git dibutuhkan dalam alur kerja harian.",
+    "required_skills": [
+      "React Native",
+      "JavaScript",
+      "TypeScript",
+      "REST API"
+    ],
+    "nice_to_have_skills": [
+      "Redux",
+      "Firebase",
+      "Git"
+    ]
+  },
+  {
+    "slug": "uiux-intern-palet",
+    "title": "UI/UX Design Intern",
+    "company": "Palet Kreatif",
+    "level": "Intern",
+    "description": "Palet Kreatif membuka magang UI/UX untuk mahasiswa desain atau informatika. Anda akan membuat wireframe, prototipe interaktif di Figma, dan membantu sesi riset pengguna sederhana. Hasil desain dipresentasikan kepada mentor setiap minggu. Pemahaman dasar HTML dan komunikasi yang baik akan membantu kolaborasi dengan developer.",
+    "required_skills": [
+      "Figma",
+      "Wireframing",
+      "Prototyping"
+    ],
+    "nice_to_have_skills": [
+      "UX Research",
+      "Communication",
+      "HTML"
+    ]
+  },
+  {
+    "slug": "uiux-junior-bentuk",
+    "title": "Junior UI/UX Designer",
+    "company": "Bentuk Studio",
+    "level": "Junior",
+    "description": "Bentuk Studio mencari junior UI/UX designer untuk proyek aplikasi konsumen. Anda akan melakukan UX research ringan, membuat wireframe, dan menyusun prototipe di Figma. Desain diuji melalui usability testing sebelum diserahkan ke tim frontend. Kemampuan HTML dan CSS membantu menjaga detail implementasi.",
+    "required_skills": [
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "UX Research"
+    ],
+    "nice_to_have_skills": [
+      "Adobe XD",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "slug": "uiux-product-ruang",
+    "title": "Product Designer",
+    "company": "Ruang Product",
+    "level": "Mid",
+    "description": "Ruang Product membangun aplikasi kolaborasi dan mencari product designer yang berpikir berbasis data. Anda akan memimpin UX research, merancang prototipe, dan berkolaborasi erat dengan product manager serta engineer. Insight kuantitatif dari data analitik digunakan untuk memvalidasi keputusan desain. Kemampuan komunikasi dan kolaborasi menjadi kunci.",
+    "required_skills": [
+      "Figma",
+      "UX Research",
+      "Prototyping",
+      "Communication"
+    ],
+    "nice_to_have_skills": [
+      "Adobe XD",
+      "Data Analysis",
+      "Collaboration"
+    ]
+  },
+  {
+    "slug": "uiux-design-system",
+    "title": "Design System Designer",
+    "company": "Sistem Visual",
+    "level": "Mid",
+    "description": "Sistem Visual membantu perusahaan menjaga konsistensi antarmuka produk. Anda akan membangun komponen dan dokumentasi di Figma, membuat prototipe interaksi, serta memastikan keselarasan dengan implementasi HTML dan CSS. Kolaborasi dengan engineer dan penulis konten berlangsung setiap hari. Pengalaman wireframing dan komunikasi yang jelas dibutuhkan.",
+    "required_skills": [
+      "Figma",
+      "Prototyping",
+      "HTML",
+      "CSS"
+    ],
+    "nice_to_have_skills": [
+      "Wireframing",
+      "Communication",
+      "Collaboration"
+    ]
+  }
+]

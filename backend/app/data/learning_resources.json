@@ -1,0 +1,437 @@
+[
+  {
+    "skill": "A/B Testing",
+    "title": "A/B Testing",
+    "url": "https://www.udacity.com/course/ab-testing--ud257"
+  },
+  {
+    "skill": "AWS",
+    "title": "AWS Training and Certification",
+    "url": "https://aws.amazon.com/training/"
+  },
+  {
+    "skill": "Adobe XD",
+    "title": "Adobe XD Tutorials",
+    "url": "https://helpx.adobe.com/xd/tutorials.html"
+  },
+  {
+    "skill": "Agile",
+    "title": "Agile 101",
+    "url": "https://www.atlassian.com/agile"
+  },
+  {
+    "skill": "Analytical Thinking",
+    "title": "Analytical Thinking",
+    "url": "https://www.coursera.org/learn/analytical-thinking"
+  },
+  {
+    "skill": "Apache Kafka",
+    "title": "Apache Kafka Quickstart",
+    "url": "https://kafka.apache.org/quickstart"
+  },
+  {
+    "skill": "Attention to Detail",
+    "title": "Attention to Detail",
+    "url": "https://www.coursera.org/learn/attention-to-detail"
+  },
+  {
+    "skill": "BigQuery",
+    "title": "BigQuery Quickstarts",
+    "url": "https://cloud.google.com/bigquery/docs/quickstarts"
+  },
+  {
+    "skill": "CI/CD",
+    "title": "What is CI/CD?",
+    "url": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"
+  },
+  {
+    "skill": "CSS",
+    "title": "MDN CSS Learning Area",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS"
+  },
+  {
+    "skill": "Collaboration",
+    "title": "Teamwork Skills",
+    "url": "https://www.coursera.org/learn/teamwork-skills"
+  },
+  {
+    "skill": "Communication",
+    "title": "Effective Communication Skills",
+    "url": "https://www.coursera.org/learn/wharton-communication-skills"
+  },
+  {
+    "skill": "Computer Vision",
+    "title": "OpenCV University",
+    "url": "https://opencv.org/university/"
+  },
+  {
+    "skill": "Cypress",
+    "title": "Cypress Getting Started",
+    "url": "https://docs.cypress.io/app/get-started/why-cypress"
+  },
+  {
+    "skill": "Dart",
+    "title": "Dart Guides",
+    "url": "https://dart.dev/guides"
+  },
+  {
+    "skill": "Data Analysis",
+    "title": "Pandas Getting Started",
+    "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/"
+  },
+  {
+    "skill": "Data Visualization",
+    "title": "Kaggle Data Visualization",
+    "url": "https://www.kaggle.com/learn/data-visualization"
+  },
+  {
+    "skill": "Deep Learning",
+    "title": "Deep Learning Specialization",
+    "url": "https://www.deeplearning.ai/courses/deep-learning-specialization/"
+  },
+  {
+    "skill": "Docker",
+    "title": "Docker Get Started",
+    "url": "https://docs.docker.com/get-started/"
+  },
+  {
+    "skill": "Express.js",
+    "title": "Express Getting Started",
+    "url": "https://expressjs.com/en/starter/installing.html"
+  },
+  {
+    "skill": "FastAPI",
+    "title": "FastAPI Tutorial",
+    "url": "https://fastapi.tiangolo.com/tutorial/"
+  },
+  {
+    "skill": "Figma",
+    "title": "Figma Help Center",
+    "url": "https://help.figma.com/hc/en-us/categories/360002051613"
+  },
+  {
+    "skill": "Firebase",
+    "title": "Firebase Guides",
+    "url": "https://firebase.google.com/docs/guides"
+  },
+  {
+    "skill": "Flutter",
+    "title": "Flutter Codelabs",
+    "url": "https://docs.flutter.dev/get-started/codelab"
+  },
+  {
+    "skill": "Git",
+    "title": "Pro Git Book",
+    "url": "https://git-scm.com/book/en/v2"
+  },
+  {
+    "skill": "GitHub Actions",
+    "title": "GitHub Actions Documentation",
+    "url": "https://docs.github.com/en/actions"
+  },
+  {
+    "skill": "Go",
+    "title": "A Tour of Go",
+    "url": "https://go.dev/tour/"
+  },
+  {
+    "skill": "Grafana",
+    "title": "Grafana Tutorials",
+    "url": "https://grafana.com/tutorials/"
+  },
+  {
+    "skill": "HTML",
+    "title": "MDN HTML Learning Area",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML"
+  },
+  {
+    "skill": "Helm",
+    "title": "Helm Quickstart",
+    "url": "https://helm.sh/docs/intro/quickstart/"
+  },
+  {
+    "skill": "Hugging Face",
+    "title": "Hugging Face Learn",
+    "url": "https://huggingface.co/learn"
+  },
+  {
+    "skill": "Java",
+    "title": "Dev.java Learn",
+    "url": "https://dev.java/learn/"
+  },
+  {
+    "skill": "JavaScript",
+    "title": "MDN JavaScript Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "skill": "Jest",
+    "title": "Jest Getting Started",
+    "url": "https://jestjs.io/docs/getting-started"
+  },
+  {
+    "skill": "Jira",
+    "title": "Jira Software Resources",
+    "url": "https://support.atlassian.com/jira-software-cloud/resources/"
+  },
+  {
+    "skill": "Kotlin",
+    "title": "Kotlin Documentation",
+    "url": "https://kotlinlang.org/docs/home.html"
+  },
+  {
+    "skill": "Kubernetes",
+    "title": "Kubernetes Basics",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/"
+  },
+  {
+    "skill": "LLM",
+    "title": "Hugging Face LLM Course",
+    "url": "https://huggingface.co/learn/llm-course"
+  },
+  {
+    "skill": "LangChain",
+    "title": "LangChain Tutorials",
+    "url": "https://python.langchain.com/docs/tutorials/"
+  },
+  {
+    "skill": "Laravel",
+    "title": "Laravel Documentation",
+    "url": "https://laravel.com/docs/11.x"
+  },
+  {
+    "skill": "Linux",
+    "title": "Linux Journey",
+    "url": "https://linuxjourney.com/"
+  },
+  {
+    "skill": "Machine Learning",
+    "title": "Google Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course"
+  },
+  {
+    "skill": "Manual Testing",
+    "title": "Software Testing Tutorial",
+    "url": "https://www.guru99.com/software-testing.html"
+  },
+  {
+    "skill": "Microservices",
+    "title": "Microservices Pattern",
+    "url": "https://microservices.io/patterns/microservices.html"
+  },
+  {
+    "skill": "Microsoft Excel",
+    "title": "Excel Training",
+    "url": "https://support.microsoft.com/en-us/excel"
+  },
+  {
+    "skill": "MongoDB",
+    "title": "MongoDB Tutorials",
+    "url": "https://www.mongodb.com/docs/manual/tutorial/"
+  },
+  {
+    "skill": "MySQL",
+    "title": "MySQL Tutorial",
+    "url": "https://dev.mysql.com/doc/refman/8.0/en/tutorial.html"
+  },
+  {
+    "skill": "Natural Language Processing",
+    "title": "Hugging Face NLP Course",
+    "url": "https://huggingface.co/learn/nlp-course"
+  },
+  {
+    "skill": "Next.js",
+    "title": "Next.js Learn",
+    "url": "https://nextjs.org/learn"
+  },
+  {
+    "skill": "Nginx",
+    "title": "Nginx Beginner's Guide",
+    "url": "https://nginx.org/en/docs/beginners_guide.html"
+  },
+  {
+    "skill": "Node.js",
+    "title": "Node.js Learn",
+    "url": "https://nodejs.org/en/learn"
+  },
+  {
+    "skill": "NumPy",
+    "title": "NumPy Absolute Beginners",
+    "url": "https://numpy.org/doc/stable/user/absolute_beginners.html"
+  },
+  {
+    "skill": "OpenCV",
+    "title": "OpenCV Tutorials",
+    "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html"
+  },
+  {
+    "skill": "PHP",
+    "title": "PHP Manual",
+    "url": "https://www.php.net/manual/en/"
+  },
+  {
+    "skill": "Pandas",
+    "title": "Pandas Tutorials",
+    "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/"
+  },
+  {
+    "skill": "Playwright",
+    "title": "Playwright Introduction",
+    "url": "https://playwright.dev/docs/intro"
+  },
+  {
+    "skill": "PostgreSQL",
+    "title": "PostgreSQL Tutorial",
+    "url": "https://www.postgresql.org/docs/current/tutorial.html"
+  },
+  {
+    "skill": "Postman",
+    "title": "Postman Learning Center",
+    "url": "https://learning.postman.com/docs/getting-started/introduction/"
+  },
+  {
+    "skill": "Power BI",
+    "title": "Power BI Learning",
+    "url": "https://learn.microsoft.com/en-us/power-bi/"
+  },
+  {
+    "skill": "Problem Solving",
+    "title": "Effective Problem Solving",
+    "url": "https://www.coursera.org/learn/problem-solving"
+  },
+  {
+    "skill": "Prometheus",
+    "title": "Prometheus Getting Started",
+    "url": "https://prometheus.io/docs/tutorials/getting_started/"
+  },
+  {
+    "skill": "Prompt Engineering",
+    "title": "Prompt Engineering Guide",
+    "url": "https://www.promptingguide.ai/"
+  },
+  {
+    "skill": "Prototyping",
+    "title": "What is Prototyping?",
+    "url": "https://www.figma.com/resource-library/what-is-prototyping/"
+  },
+  {
+    "skill": "PyTorch",
+    "title": "PyTorch Basics",
+    "url": "https://pytorch.org/tutorials/beginner/basics/intro.html"
+  },
+  {
+    "skill": "Python",
+    "title": "The Python Tutorial",
+    "url": "https://docs.python.org/3/tutorial/"
+  },
+  {
+    "skill": "REST API",
+    "title": "HTTP Overview",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+  },
+  {
+    "skill": "React",
+    "title": "React Learn",
+    "url": "https://react.dev/learn"
+  },
+  {
+    "skill": "React Native",
+    "title": "React Native Getting Started",
+    "url": "https://reactnative.dev/docs/getting-started"
+  },
+  {
+    "skill": "Redis",
+    "title": "Redis Get Started",
+    "url": "https://redis.io/docs/latest/develop/get-started/"
+  },
+  {
+    "skill": "Redux",
+    "title": "Redux Essentials",
+    "url": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts"
+  },
+  {
+    "skill": "SQL",
+    "title": "SQL Tutorial",
+    "url": "https://mode.com/sql-tutorial/"
+  },
+  {
+    "skill": "Selenium",
+    "title": "Selenium Documentation",
+    "url": "https://www.selenium.dev/documentation/"
+  },
+  {
+    "skill": "Shell Scripting",
+    "title": "Bash Scripting Guide",
+    "url": "https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html"
+  },
+  {
+    "skill": "Spring Boot",
+    "title": "Spring Boot Getting Started",
+    "url": "https://spring.io/guides/gs/spring-boot"
+  },
+  {
+    "skill": "Statistics",
+    "title": "Khan Academy Statistics",
+    "url": "https://www.khanacademy.org/math/statistics-probability"
+  },
+  {
+    "skill": "Tableau",
+    "title": "Tableau Training",
+    "url": "https://www.tableau.com/learn/training"
+  },
+  {
+    "skill": "Tailwind CSS",
+    "title": "Tailwind CSS Documentation",
+    "url": "https://tailwindcss.com/docs/installation"
+  },
+  {
+    "skill": "TensorFlow",
+    "title": "TensorFlow Tutorials",
+    "url": "https://www.tensorflow.org/tutorials"
+  },
+  {
+    "skill": "Terraform",
+    "title": "Terraform Tutorials",
+    "url": "https://developer.hashicorp.com/terraform/tutorials"
+  },
+  {
+    "skill": "TypeScript",
+    "title": "TypeScript Documentation",
+    "url": "https://www.typescriptlang.org/docs/"
+  },
+  {
+    "skill": "UX Research",
+    "title": "UX Research Cheat Sheet",
+    "url": "https://www.nngroup.com/articles/ux-research-cheat-sheet/"
+  },
+  {
+    "skill": "Vite",
+    "title": "Vite Getting Started",
+    "url": "https://vite.dev/guide/"
+  },
+  {
+    "skill": "Vue.js",
+    "title": "Vue.js Guide",
+    "url": "https://vuejs.org/guide/introduction.html"
+  },
+  {
+    "skill": "Wireframing",
+    "title": "What is Wireframing?",
+    "url": "https://www.figma.com/resource-library/what-is-wireframing/"
+  },
+  {
+    "skill": "pytest",
+    "title": "pytest Getting Started",
+    "url": "https://docs.pytest.org/en/stable/getting-started.html"
+  },
+  {
+    "skill": "scikit-learn",
+    "title": "scikit-learn Getting Started",
+    "url": "https://scikit-learn.org/stable/getting_started.html"
+  },
+  {
+    "skill": "spaCy",
+    "title": "spaCy Course",
+    "url": "https://course.spacy.io/"
+  }
+]
