@@ -210,12 +210,18 @@ careerlens/
 
 ## Screenshot
 
-Placeholder tersedia di [`docs/screenshots/`](docs/screenshots/). Ganti dengan
-tangkapan layar asli setelah menjalankan aplikasi.
+Tangkapan layar asli aplikasi setelah menganalisis CV fiktif dari [`demo/`](demo/)
+(data lowongan fiktif, bukan lowongan nyata).
 
-![Dashboard](docs/screenshots/dashboard.svg)
+**Dashboard** — gauge skor CV, breakdown per kriteria, radar coverage, top
+lowongan, dan skill gap.
 
-![Riwayat dan perbandingan](docs/screenshots/history.svg)
+![Dashboard](docs/screenshots/dashboard.png)
+
+**Riwayat dan perbandingan** — dua analisis CV dengan grafik perkembangan skor
+dan perbandingan skill.
+
+![Riwayat dan perbandingan](docs/screenshots/history.png)
 
 ## Keamanan dan privasi
 
